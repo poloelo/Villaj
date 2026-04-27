@@ -1,0 +1,96 @@
+[gd_scene format=3 uid="uid://d36j0lacmxp1h"]
+
+[ext_resource type="PackedScene" uid="uid://dhpat15xdtc5s" path="res://Character/CharacterScene.tscn" id="1_qh4hx"]
+[ext_resource type="Script" uid="uid://4x0rhgbvrwie" path="res://main_test.gd" id="1_vq8d1"]
+[ext_resource type="PackedScene" uid="uid://bpa1plbdgsh3j" path="res://TestScenes/Plateform/Plateform.tscn" id="2_1uo3k"]
+[ext_resource type="PackedScene" uid="uid://x2y0y2evi34v" path="res://Items/Items/Item_meshes/Camera.tscn" id="4_v5o3d"]
+[ext_resource type="PackedScene" uid="uid://cuaedrw0lpqcr" path="res://Items/Items/Item_meshes/ball.tscn" id="4_vq8d1"]
+[ext_resource type="Texture2D" uid="uid://chp1ie0sk6evn" path="res://Environment/UI/Image_ressource/FkgOZ98XEAI8ok8-2.jpg" id="6_uuif0"]
+
+[node name="MainTest" type="Node3D" unique_id=690965362]
+script = ExtResource("1_vq8d1")
+time = 12
+
+[node name="BasePersonnage" parent="." unique_id=997909354 instance=ExtResource("1_qh4hx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.712119, 0)
+
+[node name="Plateform" parent="." unique_id=1097382199 instance=ExtResource("2_1uo3k")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -3.19055, 0)
+
+[node name="Camera" parent="." unique_id=1557810563 instance=ExtResource("4_v5o3d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.32133, 6.66366, 0.0143242)
+
+[node name="Camera2" parent="." unique_id=2125152380 instance=ExtResource("4_v5o3d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.32133, 6.66366, 0.0143242)
+
+[node name="Camera3" parent="." unique_id=1973794729 instance=ExtResource("4_v5o3d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.32133, 6.66366, 0.0143242)
+
+[node name="Camera4" parent="." unique_id=1048037622 instance=ExtResource("4_v5o3d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.32133, 6.66366, 0.0143242)
+
+[node name="Camera5" parent="." unique_id=614107672 instance=ExtResource("4_v5o3d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.32133, 6.66366, 0.0143242)
+
+[node name="Camera6" parent="." unique_id=1625855902 instance=ExtResource("4_v5o3d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.32133, 6.66366, 0.0143242)
+
+[node name="Camera7" parent="." unique_id=135568646 instance=ExtResource("4_v5o3d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.32133, 6.66366, 0.0143242)
+
+[node name="Ball6" parent="." unique_id=1801218139 instance=ExtResource("4_vq8d1")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 5.43127, -0.786395, 0)
+
+[node name="Ball7" parent="." unique_id=1524722970 instance=ExtResource("4_vq8d1")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 5.43127, -0.786395, 0)
+
+[node name="Ball8" parent="." unique_id=1622116446 instance=ExtResource("4_vq8d1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.43127, -0.786395, 0)
+
+[node name="Ball9" parent="." unique_id=14946733 instance=ExtResource("4_vq8d1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.43127, -0.786395, 0)
+
+[node name="Ball15" parent="." unique_id=816340430 instance=ExtResource("4_vq8d1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.43127, -0.786395, 0)
+
+[node name="Node3D" parent="." unique_id=789047469 instance=ExtResource("4_vq8d1")]
+
+[node name="Node3D2" parent="." unique_id=258467198 instance=ExtResource("4_vq8d1")]
+
+[node name="Node3D3" parent="." unique_id=1903024032 instance=ExtResource("4_vq8d1")]
+
+[node name="Node3D4" parent="." unique_id=1350679603 instance=ExtResource("4_vq8d1")]
+
+[node name="Node3D5" parent="." unique_id=1545968531 instance=ExtResource("4_vq8d1")]
+
+[node name="Node3D6" parent="." unique_id=1251446671 instance=ExtResource("4_vq8d1")]
+
+[node name="Node3D7" parent="." unique_id=1399217862 instance=ExtResource("4_vq8d1")]
+
+[node name="Node3D8" parent="." unique_id=45817049 instance=ExtResource("4_vq8d1")]
+
+[node name="Node3D9" parent="." unique_id=725364475 instance=ExtResource("4_vq8d1")]
+
+[node name="Node3D10" parent="." unique_id=1370821448 instance=ExtResource("4_vq8d1")]
+
+[node name="Node3D11" parent="." unique_id=1021856627 instance=ExtResource("4_vq8d1")]
+
+[node name="Node3D12" parent="." unique_id=295067677 instance=ExtResource("4_vq8d1")]
+
+[node name="Timer" type="Timer" parent="." unique_id=724555408]
+one_shot = true
+
+[node name="LaunchButton" type="Button" parent="." unique_id=584010861]
+custom_minimum_size = Vector2(100, 30)
+offset_left = 935.0
+offset_top = 72.0
+offset_right = 943.0
+offset_bottom = 80.0
+text = "Launch"
+
+[node name="FkgOz98xeai8Ok82" type="Sprite2D" parent="LaunchButton" unique_id=994915183]
+position = Vector2(-355.99994, 57)
+scale = Vector2(0.32438993, 0.29647171)
+texture = ExtResource("6_uuif0")
+
+[connection signal="pressed" from="LaunchButton" to="." method="_on_launch_button_pressed"]

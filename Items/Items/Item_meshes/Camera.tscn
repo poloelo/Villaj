@@ -1,0 +1,38 @@
+[gd_scene load_steps=7 format=3 uid="uid://x2y0y2evi34v"]
+
+[ext_resource type="Script" uid="uid://b0il46qefbqag" path="res://Items/Items/Item_scenes/ItemScript.gd" id="1_1w3eg"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_mk2c2"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_mk2c2"]
+size = Vector3(0.34, 0.74, 1)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_mk2c2"]
+points = PackedVector3Array(-0.17, -0.37, -0.5, 0.17, -0.37, -0.5, -0.17, -0.37, 0.5, -0.17, 0.37, -0.5, 0.17, 0.37, -0.5, 0.17, -0.37, 0.5, -0.17, 0.37, 0.5, 0.17, 0.37, 0.5)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vvu1i"]
+albedo_color = Color(0.425571, 0.425571, 0.425571, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_x3w1n"]
+material = SubResource("StandardMaterial3D_vvu1i")
+top_radius = 0.3
+bottom_radius = 0.3
+height = 0.2
+
+[node name="Camera" type="Node3D"]
+
+[node name="RigidBody3D" type="RigidBody3D" parent="."]
+physics_material_override = SubResource("PhysicsMaterial_mk2c2")
+script = ExtResource("1_1w3eg")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D"]
+mesh = SubResource("BoxMesh_mk2c2")
+skeleton = NodePath("../..")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D"]
+shape = SubResource("ConvexPolygonShape3D_mk2c2")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="RigidBody3D"]
+transform = Transform3D(-4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0, 1, 0.2, 0, 0)
+mesh = SubResource("CylinderMesh_x3w1n")
+skeleton = NodePath("../..")
