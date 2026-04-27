@@ -34,7 +34,6 @@ func shoot(raycast: RayCast3D) -> void:
 
 	# Place le rigid exactement au même endroit que la racine, au cas où
 	rigid.global_transform.origin = start_pos
-	rigid.transform.scaled(Vector3(0.1,0.1,0.1))
 
 	# Applique la vélocité
 	rigid.linear_velocity = shoot_dir * shoot_force

@@ -297,7 +297,7 @@ func _on_pickup_area_body_exited(body: Node3D) -> void:
 # INTERACTION
 # ==============================================================================
 func _interact() -> void:
-	if Input.is_action_just_pressed("attack") and area_overlapping != null:
+	if Input.is_action_just_pressed("interact") and area_overlapping != null:
 		if area_overlapping.get_parent().has_method("toggle"):
 			area_overlapping.get_parent().toggle()
 
