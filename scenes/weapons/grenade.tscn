@@ -1,7 +1,6 @@
-[gd_scene load_steps=9 format=3 uid="uid://5fuv8aqcd4ql"]
+[gd_scene load_steps=8 format=3 uid="uid://5fuv8aqcd4ql"]
 
-[ext_resource type="Script" uid="uid://c2oq3n8ihikdn" path="res://Weapon/Ammo/grenade.gd" id="1_v8yt2"]
-[ext_resource type="Script" uid="uid://cerdr7gqbqnul" path="res://Weapon/Ammo/rigid_body_3d.gd" id="2_2d4x5"]
+[ext_resource type="Script" uid="uid://cerdr7gqbqnul" path="res://src/weapons/grenade_body.gd" id="2_2d4x5"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_2d4x5"]
 bounce = 0.51
@@ -25,7 +24,6 @@ radius = 20.4
 
 [node name="Node3D" type="Node3D"]
 transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0, 0)
-script = ExtResource("1_v8yt2")
 
 [node name="RigidBody3D" type="RigidBody3D" parent="."]
 transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, 0)

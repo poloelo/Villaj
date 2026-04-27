@@ -1,7 +1,5 @@
 [gd_scene format=3 uid="uid://087v22f6iw5k"]
 
-[ext_resource type="Script" uid="uid://xf1qdotwdtof" path="res://Character/UI/character_ui.gd" id="1_hm2ru"]
-
 [node name="Control" type="Control" unique_id=105614189]
 layout_mode = 3
 anchors_preset = 15
@@ -10,7 +8,6 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 1
-script = ExtResource("1_hm2ru")
 
 [node name="MissionPanel" type="Panel" parent="." unique_id=1056642963]
 layout_mode = 1

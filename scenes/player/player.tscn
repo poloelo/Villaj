@@ -1,11 +1,11 @@
 [gd_scene format=3 uid="uid://dhpat15xdtc5s"]
 
-[ext_resource type="PackedScene" uid="uid://087v22f6iw5k" path="res://Character/UI/Character_UI.tscn" id="1_aoc14"]
-[ext_resource type="Script" uid="uid://0m1uun52q7dp" path="res://Character/CharacterScript.gd" id="1_r8mqh"]
-[ext_resource type="Script" uid="uid://bmhdrdyqn37hg" path="res://Character/Combat/WeaponHolderScript.gd" id="2_rtwic"]
-[ext_resource type="PackedScene" uid="uid://bueg0unvo20sb" path="res://Weapon/Grenade Gun.tscn" id="3_7qxxv"]
+[ext_resource type="PackedScene" uid="uid://087v22f6iw5k" path="res://scenes/ui/player_hud.tscn" id="1_aoc14"]
+[ext_resource type="Script" uid="uid://0m1uun52q7dp" path="res://src/player/player.gd" id="1_r8mqh"]
+[ext_resource type="Script" uid="uid://bmhdrdyqn37hg" path="res://src/player/weapon_holder.gd" id="2_rtwic"]
+[ext_resource type="PackedScene" uid="uid://bueg0unvo20sb" path="res://scenes/weapons/grenade_gun.tscn" id="3_7qxxv"]
 [ext_resource type="PackedScene" uid="uid://yb24lomprj38" path="res://pf_polygon_player.tscn" id="4_aoc14"]
-[ext_resource type="Script" uid="uid://ddydedisesvby" path="res://Character/Camera/CameraScript.gd" id="12_tm0be"]
+[ext_resource type="Script" uid="uid://ddydedisesvby" path="res://src/player/camera_controller.gd" id="12_tm0be"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_eff2y"]
 radius = 0.28787

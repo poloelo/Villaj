@@ -1,11 +1,11 @@
 [gd_scene format=3 uid="uid://d36j0lacmxp1h"]
 
-[ext_resource type="PackedScene" uid="uid://dhpat15xdtc5s" path="res://Character/CharacterScene.tscn" id="1_qh4hx"]
-[ext_resource type="Script" uid="uid://4x0rhgbvrwie" path="res://main_test.gd" id="1_vq8d1"]
-[ext_resource type="PackedScene" uid="uid://bpa1plbdgsh3j" path="res://TestScenes/Plateform/Plateform.tscn" id="2_1uo3k"]
+[ext_resource type="PackedScene" uid="uid://dhpat15xdtc5s" path="res://scenes/player/player.tscn" id="1_qh4hx"]
+[ext_resource type="Script" uid="uid://4x0rhgbvrwie" path="res://src/main.gd" id="1_vq8d1"]
+[ext_resource type="PackedScene" uid="uid://bpa1plbdgsh3j" path="res://scenes/environment/platform.tscn" id="2_1uo3k"]
 [ext_resource type="PackedScene" uid="uid://x2y0y2evi34v" path="res://Items/Items/Item_meshes/Camera.tscn" id="4_v5o3d"]
 [ext_resource type="PackedScene" uid="uid://cuaedrw0lpqcr" path="res://Items/Items/Item_meshes/ball.tscn" id="4_vq8d1"]
-[ext_resource type="Texture2D" uid="uid://chp1ie0sk6evn" path="res://Environment/UI/Image_ressource/FkgOZ98XEAI8ok8-2.jpg" id="6_uuif0"]
+[ext_resource type="Texture2D" uid="uid://chp1ie0sk6evn" path="res://assets/ui/images/FkgOZ98XEAI8ok8-2.jpg" id="6_uuif0"]
 
 [node name="MainTest" type="Node3D" unique_id=690965362]
 script = ExtResource("1_vq8d1")
